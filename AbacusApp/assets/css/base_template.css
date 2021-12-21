@@ -1,0 +1,41 @@
+.slide{
+    margin: 20px 100px;
+    border-radius: 12px;
+}
+.image-section {
+    margin: 0 300px;
+}
+img{
+    height: 30vh;
+    width: 100%;
+}
+.abacus-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.abacus-title p{
+    font-family: monospace;
+}
+@media (max-width: 909px){
+    .slide{
+        margin: 0;
+    }
+    .image-section {
+        margin: 0;
+    }
+    img {
+        margin: 30px 9px;
+        height: 109px;
+        width: 340px;
+    }
+    .abacus-title{
+        text-align: center;
+        font-size: 20px;
+    }
+    .abacus-title p{
+        font-weight: bold;
+        font-family: monospace;
+    }
+}
