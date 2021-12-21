@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static',filename='css/Sign.css')}}" />
+    <title>Abacus</title>
+
+    <style>
+        .container::before{
+    content: "";
+    background-image: url("url_for('static',filename='images/bg/img6.jpg')");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+    </style>
+</head>
+<body>
+
+<body>
+    <div class="container">
+        <div class="content">
+                <div class="heading-section">
+                    <p>Sign in</p>
+                </div>
+                <div class="form-section">
+                    <div class="input-field">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" />
+                    </div>
+                    <div class="input-field">
+                        <label for="password">Password</label>
+                        <input type="password" name="password"/>
+                    </div>
+                    <div>
+                        <span>Don't have an account ?<a href="signup.html">Click here</a></span>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

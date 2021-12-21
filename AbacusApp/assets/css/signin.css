@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .container::before{
+    content: "";
+    background-image: url('/Signin.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+} */
+.content {
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 40px;
+    padding: 35px;
+    width: 400px;
+}
+
+.heading-section p {
+    margin: 10px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.form-section .input-field label {
+    display: block;
+}
+
+.form-section .input-field input {
+    margin: 10px 0;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+    border: 2px solid #aaa;
+    width: 80%;
+}
+
+.form-section .input-field input:focus{
+    border: 2px solid rgb(148, 234, 245);
+}
+
+.container .content a{
+    text-decoration: none;
+}
+
+.button-container button{
+    margin: 10px 0;
+    padding: 10px 20px ;
+    border: 10px;
+    border : 2px solid black;
+    background-color: #fff;
+    border-radius: 12px;  
+    font-weight: bold;
+    transition: 0.28s;
+}
+
+.button-container button:hover{
+    background-color: black;
+    color: #fff;
+}
