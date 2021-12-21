@@ -1,16 +1,8 @@
 from flask import Flask, render_template
-from flask_sqlalchemy import SQLAlchemy
-
-# from SpmApp.config import Configs
-
-# DB = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__,
     static_folder='assets')
-
-    # app.config.from_object(Configs)
-    # DB.init_app(app)
 
     from AbacusApp.blueprints.main.routes import main
     from AbacusApp.blueprints.accounts.routes import accounts
